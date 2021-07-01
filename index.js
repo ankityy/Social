@@ -28,7 +28,7 @@ const Blog = require('./models/blog');
 
 //landing page
 app.get('/', (req, res) => {
-    res.send('landing page');
+    res.render('landing');
 })
 
 //index page: show all blogs
