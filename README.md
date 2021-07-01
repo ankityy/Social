@@ -1,4 +1,4 @@
-# Follow the steps to run the application
+## Follow the steps to run the application ##
 
 1. Fork the repository to your github account.
 2. Clone the repo to the local computer.
