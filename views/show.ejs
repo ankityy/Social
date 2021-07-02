@@ -46,7 +46,7 @@
                 <p class="card-text">
                     <%= oneBlog.desc %>
                 </p>
-                <p class="card-text d-inline block"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text d-inline block"><small class="text-muted">Last updated: <%=oneBlog.updatedAt.toDateString() %> </small></p>
                 <form action="/blogs/<%= oneBlog._id %>?_method=DELETE" method="POST">
                     <button class="btn btn-outline-danger btn-sm float-right mx-2">Delete</button>
                 </form>

@@ -13,7 +13,8 @@ const schema = new mongoose.Schema({
         type: String,
         required: true
     }
-})
+
+}, { timestamps: {updatedAt :'updatedAt'}} )
 
 const Blog = mongoose.model('Blog', schema);
 
